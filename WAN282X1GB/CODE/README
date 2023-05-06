@@ -1,0 +1,11 @@
+1. crawling
+ - Bosch crawling_WAN282X1GB
+ 
+2. preprocessing
+ - Bosch preprocessing WAN282X1GB
+ 
+3. LDA
+ - Bosch preprocessing WAN282X1GB
+ 
+4. extract feature
+ - fr_WAN282X1GB
