@@ -1,0 +1,9 @@
+manual.pdf
+- 청소기 메뉴얼, 사진에는 번호만 있고... 설명에는 번호에 따른 설명이 없음
+- 각국의 언어로 적혀 있어서 사실상 영어 메뉴얼은 2장뿐, 1-9까지 추출하면 될듯
+
+product information
+- 제품 설명, performance, Hygiene, comfort
+
+청소기 제품명
+- WAJ2416WIN
