@@ -1,3 +1,3 @@
 # QFD
 - Data Driven QFD
-- antoher (nodel) data : WAN282X1GB
+- antoher (model) data : WAN282X1GB
