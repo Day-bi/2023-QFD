@@ -3,7 +3,7 @@
 
 2. This study introduces a data-driven framework that extracts and quantifies customer requirements (CR) from reviews and EC from manuals.
 
-3. The CR-EC links are visualized through co-occurrence and IPA, supporting data-informed product decisions.
+3. The CR-EC relationships are visualized using co-occurrence analysis and Importance–Performance Analysis (IPA), offering practical insights for data-informed product development.
 
 # data description
 collecting dataset. CRs from customer reviews in [Amazon.com](http://Amazon.com) .applied commment. for washing machine the
