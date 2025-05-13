@@ -49,18 +49,18 @@ for url2 in range(1,31):
     
     bs_obj = bs(source, "html.parser")
 
-    for i in bs_obj.findAll('a',{'data-hook':'review-title'}):
+    for i in bs_obj.findAll('a',{'data-hook':'review-title'}): # review title
         titles.append(i.get_text().strip())
         
-    for n in bs_obj.findAll('span',{'data-hook':'review-date'}):
+    for n in bs_obj.findAll('span',{'data-hook':'review-date'}): # review date
         nn = ''.join(n.get_text().split(' ')[-3:])
         date = datetime.strptime(nn, '%d%B%Y').date()
         dates.append(date)
         
-    for a in bs_obj.findAll('span',{'data-hook':'review-body'}):
+    for a in bs_obj.findAll('span',{'data-hook':'review-body'}): #review body(contents)
         contents.append(a.get_text().strip())
         
-    for u in bs_obj.findAll('i', {'data-hook':'review-star-rating'}):
+    for u in bs_obj.findAll('i', {'data-hook':'review-star-rating'}): #review rating
         stars.append(int(u.get_text()[0]))
         
     print('number of Scrped reviews : ', len(titles))
