@@ -12,7 +12,6 @@ collecting dataset. CRs from customer reviews in [Amazon.com](http://Amazon.com)
 
 - CRs involves collecting customer reviews from [amazon.com](http://amazon.com) for a specific washing machine model. The collection period spans from May 2015, to March 3, 2023, as of the collection data.  The reviews comprise date, rating, title and content.
 
-# Data output
 |Dates|Ratings|Titles|Bodys|
 |------|---|---|---|
 |2023-02-20|5|Durable Solid excellent	|Superlike|
@@ -22,3 +21,5 @@ collecting dataset. CRs from customer reviews in [Amazon.com](http://Amazon.com)
 |...|...|...|...|
 
 - Combined titles and bodies of product reviews into single content entries, filtered out duplicates, and cleaned the data for language model pretraining.
+
+# Data preprocsssing
